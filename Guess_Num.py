@@ -1,4 +1,4 @@
-"""The naumber guessing game,
+"""The number guessing game,
 where the system chooses a random number on it's own, without letting you know
 and you get numebr of attempts depending on the difficulty you choose,
 to choose the numebr. It also provides hints, based on how far or close you are
