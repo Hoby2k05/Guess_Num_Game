@@ -1,4 +1,4 @@
-# Practice_Code_1
+# Guess_Num_Game
 
  This project is about a quick number guessing game with your system.
 Where the system chooses a nmber at random and you get some attempts
