@@ -18,7 +18,7 @@ print("2> Medium (7 attempts)\n") #MEDIUM 😐
 print("3> Hard (5 attempts)\n")  #HARD 😨
 difficulty = int(input("Enter 1, 2 or 3:").strip())
 
-leaderboard= {}
+leaderboard= {} '''Displays a final score        along with the player names.'''
 
 attempts= {1:10,2:7,3:5}.get(difficulty,7)
 
