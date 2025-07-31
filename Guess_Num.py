@@ -80,7 +80,8 @@ if attempts == 0 and guess != chosen_one:
 
 print(f"Your score is: {score}") # YOUR SCORE 🎉
 
-print("\n 🏆LEADERBOARD🏆") # LEADERBOARD FOR MULTIPALYER MODE....🥇🥈🥉
+print("\n 🏆LEADERBOARD🏆") # The leaderboard dictionary can be used as a universal variable itself and can be used to store the results from previous attempted uses as keys and their values as required 
+
 sorted_leaderboard = sorted(leaderboard.items(), key=lambda x: x[1], reverse=True)  # Sort by score
 for rank, (name, points) in enumerate(sorted_leaderboard, start=1):
     print(f"{rank}. {name} - {points} points")
