@@ -57,14 +57,14 @@ while guess != chosen_one and attempts > 0:
         print(f"You are absolutely right!🎉. It took {tries} attempts")
         score += 5
         break 
-    elif 5 <= difference:
+    elif 6<= difference:
         print("You are way off, try again.")
-    elif 3<=difference<=4:
+    elif 3<=difference<=5:
         print("You are getting closer!")
-        score += 1
+        score += 2
     elif 1<=difference<=2:
         print("Too close almost there.")
-        score += 3    
+        score += 5    
     elif guess > chosen_one:
         print("Too high, try again.")    
     elif guess < chosen_one:
