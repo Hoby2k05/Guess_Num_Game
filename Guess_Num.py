@@ -75,7 +75,10 @@ while guess != chosen_one and attempts > 0:
 
     
 
-if attempts == 0 and guess != chosen_one:
+if attempts == 0 and guess != # if the attempts are stored as (name:score) that is (key: value) in theLeaderboard variable when it is set as a variable at the start of the attempt, it can't be set as a default universal veriables for all the attempts, and every time, it has to be set that way manually at the start of the attempt. And it won't work if we try to set it that way in the middle of the attempt, it won't register it as newly added variable, because the leaderboard subtext is already in the program in the form of dictionary.
+
+
+chosen_one:
     print(f"Out of attempts! The correct number was {chosen_one}. 😢") # OOHH,,,GAME OVER
 
 print(f"Your score is: {score}") # YOUR SCORE 🎉
