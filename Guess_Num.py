@@ -30,7 +30,7 @@ tries = 0
 
 
 while guess != chosen_one and attempts > 0:
-    guess = (input(f"You have {attempts} attempts left. Guess a number between {a} and {b}: ").strip())
+    guess = (input(f"You have {attempts} attempts left. Guess a number between {a} and {b}: ").strip()) /* execution of number of attempts we have...*/
 
     if guess.lower() == "quit":  # ✅ Check for quit command
         confirm = input("Are you sure you want to quit? (yes/no): ").strip().lower()
